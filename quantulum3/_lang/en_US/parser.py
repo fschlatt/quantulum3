@@ -187,11 +187,14 @@ def build_quantity(orig_text, text, item, values, unit, surface, span, uncert):
         _LOGGER.debug('\tCorrect for "1990s" pattern')
 
     # Usually "1am", "5.12 pm" stand for the time, not pico- or attometer
+    value = item.group("prevalue")
+    if item is None:
+        value = item.group("postvalue")
     if (
         len(unit.dimensions) == 1
         and ("pm" == item.group("unit1") or "am" == item.group("unit1"))
         and unit.entity.name == "length"
-        and re.fullmatch(r"\d(\.\d\d)?", item.group("value"))
+        and re.fullmatch(r"\d(\.\d\d)?", value)
     ):
         _LOGGER.debug("\tCorrect for am/pm time pattern")
         return

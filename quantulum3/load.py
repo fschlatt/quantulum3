@@ -27,12 +27,16 @@ def cached(funct):
     """
     assert callable(funct)
 
-    def cached_function(lang="en_US"):
+    def cached_function(lang="en_US", inverse=False):
+        invert = -1 if inverse else 1
         try:
-            return _CACHE_DICT[id(funct)][lang]
+            return _CACHE_DICT[id(funct) * invert][lang]
         except KeyError:
-            result = funct(lang)
-            _CACHE_DICT[id(funct)] = {lang: result}
+            try:
+                result = funct(lang, inverse=inverse)
+            except TypeError:
+                result = funct(lang)
+            _CACHE_DICT[id(funct) * invert] = {lang: result}
             return result
 
     return cached_function

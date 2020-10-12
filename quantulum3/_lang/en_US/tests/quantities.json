@@ -1,6 +1,7 @@
 [
   {
     "req": "I want two meters of cotton for £2,000",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -16,6 +17,7 @@
   },
   {
     "req": "The second Lagrangian point (L2) of the Earth–Sun system is at 1,500,000 kilometres (930,000 mi) from Earth",
+    "inverse": false,
     "res": [
       {
         "value": 1500000,
@@ -31,6 +33,7 @@
   },
   {
     "req": "The door is 2 1/2 in thick, and it will be for at least several hundred years",
+    "inverse": false,
     "res": [
       {
         "value": 2.5,
@@ -41,6 +44,7 @@
   },
   {
     "req": "Hubble images of the non-standard object SCP 06F6, behind galaxy cluster MACS J1149.5+6663, were sharper than any taken since the passage of Voyager 2 in 1979",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -56,6 +60,7 @@
   },
   {
     "req": "The class is \"English 101\". On a second thought, I'll skip it.",
+    "inverse": false,
     "res": [
       {
         "value": 101,
@@ -66,6 +71,7 @@
   },
   {
     "req": "Concepts for advanced 21st-century telescopes include a conceptualized 8- to 16-meter (320- to 640-inch) optical space telescope",
+    "inverse": false,
     "res": [
       {
         "value": 12,
@@ -83,6 +89,7 @@
   },
   {
     "req": "Hubble's predicted position for six weeks' time could be in error by up to 4,000 km",
+    "inverse": false,
     "res": [
       {
         "value": 6,
@@ -98,6 +105,7 @@
   },
   {
     "req": "Even though we're in the 21st century, we need an accuracy of 16.25 nanometers, about 1/40 of the wavelength of red light",
+    "inverse": false,
     "res": [
       {
         "value": 16.25,
@@ -113,6 +121,7 @@
   },
   {
     "req": "OAO-1's battery failed after three days, terminating the mission",
+    "inverse": false,
     "res": [
       {
         "value": 3,
@@ -123,6 +132,7 @@
   },
   {
     "req": "I want a hundred and two of those",
+    "inverse": false,
     "res": [
       {
         "value": 102,
@@ -133,6 +143,7 @@
   },
   {
     "req": "How will I look like twenty-one years and six months in the future?",
+    "inverse": false,
     "res": [
       {
         "value": 21,
@@ -148,6 +159,7 @@
   },
   {
     "req": "OPERA detected neutrinos traveling faster than light by a factor of 2.48×10−5, with 6.0-sigma significance.",
+    "inverse": false,
     "res": [
       {
         "value": 0.0000248,
@@ -163,6 +175,7 @@
   },
   {
     "req": "Last year the LHC was deactivated for a two-year maintenance period",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -173,6 +186,7 @@
   },
   {
     "req": "Violet light oscillates at 4e14 s-1",
+    "inverse": false,
     "res": [
       {
         "value": 4e14,
@@ -183,6 +197,7 @@
   },
   {
     "req": "It opened recently, and it's used four times per week",
+    "inverse": false,
     "res": [
       {
         "value": 4,
@@ -206,6 +221,7 @@
   },
   {
     "req": "There is no difference in volume between 4km^3, 4 cubic kilometers and 4 km cubed",
+    "inverse": false,
     "res": [
       {
         "value": 4,
@@ -226,6 +242,7 @@
   },
   {
     "req": "There is no difference in volume between 4km^2, 4 square kilometers and 4 km squared",
+    "inverse": false,
     "res": [
       {
         "value": 4,
@@ -246,6 +263,7 @@
   },
   {
     "req": "In the movie, Forrest Gump keeps running for 3 years, 2 months, 14 days, and 16 hours. The estimated length Forrest covered is 30616.16 km",
+    "inverse": false,
     "res": [
       {
         "value": 3,
@@ -276,6 +294,7 @@
   },
   {
     "req": "You are mixing some concrete for a home project, and you've calculated according to the directions that you need six gallons of water for your mix.",
+    "inverse": false,
     "res": [
       {
         "value": 6,
@@ -286,6 +305,7 @@
   },
   {
     "req": "Amorphous silicon has a higher bandgap (1.7 eV) than crystalline silicon (c-Si) (1.1 eV)",
+    "inverse": false,
     "res": [
       {
         "value": 1.7,
@@ -301,6 +321,7 @@
   },
   {
     "req": "Give me -1e-3 W/min, now!",
+    "inverse": false,
     "res": [
       {
         "value": -0.001,
@@ -324,6 +345,7 @@
   },
   {
     "req": "I would do it, but only for $15.4/hour",
+    "inverse": false,
     "res": [
       {
         "value": 15.4,
@@ -347,6 +369,7 @@
   },
   {
     "req": "Objects fall with an acceleration of 9.83e-3 +/- 1e-5 km/s2",
+    "inverse": false,
     "res": [
       {
         "value": 0.00983,
@@ -371,6 +394,7 @@
   },
   {
     "req": "I want a gallon of beer, and 3 to 4 L of wine",
+    "inverse": false,
     "res": [
       {
         "value": 1,
@@ -387,6 +411,7 @@
   },
   {
     "req": "The cost of gallium metal rose from about $350 per kg to $680 per kg",
+    "inverse": false,
     "res": [
       {
         "value": 350,
@@ -428,6 +453,7 @@
   },
   {
     "req": "It increased by 35% by the end of the 1960s",
+    "inverse": false,
     "res": [
       {
         "value": 35,
@@ -443,6 +469,7 @@
   },
   {
     "req": "After two proton beams circulated in the 27-kilometer ring, the LHC smashed them at 3.5–4.0 TeV",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -464,6 +491,7 @@
   },
   {
     "req": "I have €10M in my savings account... sorry, I meant €10B",
+    "inverse": false,
     "res": [
       {
         "value": 10e6,
@@ -479,6 +507,7 @@
   },
   {
     "req": "Italy covers an area of 301,338 km2 (116,347 sq mi). Its GDP is $2.174T.",
+    "inverse": false,
     "res": [
       {
         "value": 301338,
@@ -499,6 +528,7 @@
   },
   {
     "req": "Google holds somewhere around 10-15 exabytes of data, which equals a tower of 3 miles height made of of punch cards.",
+    "inverse": false,
     "res": [
       {
         "value": 12.5,
@@ -515,6 +545,7 @@
   },
   {
     "req": "A kibibyte is exactly 8x2^10 bits, which is approximately one thousand bytes.",
+    "inverse": false,
     "res": [
       {
         "value": 1,
@@ -535,6 +566,7 @@
   },
   {
     "req": "And I would walk 0.5k miles",
+    "inverse": false,
     "res": [
       {
         "value": 500,
@@ -546,6 +578,7 @@
   },
   {
     "req": "We produced solid 50 Wh today",
+    "inverse": false,
     "res": [
       {
         "value": 50,
@@ -569,6 +602,7 @@
   },
   {
     "req": "In this pit, 50 cars are stored",
+    "inverse": false,
     "res": [
       {
         "value": 50,
@@ -579,6 +613,7 @@
   },
   {
     "req": "He will be 30 by the end of the year",
+    "inverse": false,
     "res": [
       {
         "value": 30,
@@ -589,6 +624,7 @@
   },
   {
     "req": "The answer is 42, at the end of times",
+    "inverse": false,
     "res": [
       {
         "value": 42,
@@ -599,6 +635,7 @@
   },
   {
     "req": "I told him: \"one hundred and two\" at the time",
+    "inverse": false,
     "res": [
       {
         "value": 102,
@@ -609,6 +646,7 @@
   },
   {
     "req": "42 is the answer, believe me!",
+    "inverse": false,
     "res": [
       {
         "value": 42,
@@ -619,6 +657,7 @@
   },
   {
     "req": "The solar production of this year is 7.3 MWh",
+    "inverse": false,
     "res": [
       {
         "value": 7.3,
@@ -642,6 +681,7 @@
   },
   {
     "req": "Oh look, a penny!",
+    "inverse": false,
     "res": [
       {
         "value": 1,
@@ -653,6 +693,7 @@
   },
   {
     "req": "Quite a lot of currencies have cents, where one hundred cents equal the basic unit",
+    "inverse": false,
     "res": [
       {
         "value": 100,
@@ -664,6 +705,7 @@
   },
   {
     "req": "The probability of a fair dice showing a certain face is exactly one sixth.",
+    "inverse": false,
     "res": [
       {
         "value": 0.16666666666666666666666666666,
@@ -675,6 +717,7 @@
   },
   {
     "req": "I'd like two thirds of the cake.",
+    "inverse": false,
     "res": [
       {
         "value": 0.666666666666666666666666666666,
@@ -686,6 +729,7 @@
   },
   {
     "req": "Is three halves fractional?",
+    "inverse": false,
     "res": [
       {
         "value": 1.5,
@@ -697,6 +741,7 @@
   },
   {
     "req": "approximately one-half miles east",
+    "inverse": false,
     "res": [
       {
         "value": 0.5,
@@ -708,10 +753,12 @@
   },
   {
     "req": "The Great Australia mine open cut (south-east of Cloncurry) with a fault visible above the stopes of historical underground workings.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "Cannington—South 32 Ltd",
+    "inverse": false,
     "res": [
       {
         "value": 32,
@@ -723,6 +770,7 @@
   },
   {
     "req": "The recycling facility manages roughly 4,500 tpd.",
+    "inverse": false,
     "res": [
       {
         "value": 4500,
@@ -744,10 +792,12 @@
   },
   {
     "req": "The number 1/0 is not a valid value.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "45 Js l",
+    "inverse": false,
     "res": [
       {
         "value": 45,
@@ -769,6 +819,7 @@
   },
   {
     "req": "I bought a dozen eggs recently",
+    "inverse": false,
     "res": [
       {
         "value": 1.0,
@@ -780,6 +831,7 @@
   },
   {
     "req": "A baker's dozen is exactly 13 units whilst a gross is 144 (a square dozen).",
+    "inverse": false,
     "res": [
       {
         "value": 1.0,
@@ -827,6 +879,7 @@
   },
   {
     "req": "One gigaannum (1Ga) is a unit of time equal to one billion years",
+    "inverse": false,
     "res": [
       {
         "value": 1.0,
@@ -850,6 +903,7 @@
   },
   {
     "req": "The dinosaur species Tyrannosaurus rex was abundant approximately 66 Ma ago",
+    "inverse": false,
     "res": [
       {
         "value": 66,
@@ -861,6 +915,7 @@
   },
   {
     "req": "valued at $13,009 million in 2013, and 278,000 t valued 10 000 dollars.",
+    "inverse": false,
     "res": [
       {
         "value": 13009000000,
@@ -890,10 +945,12 @@
   },
   {
     "req": "We produced nothing in 2013-14.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "That one costs 3 dimes",
+    "inverse": false,
     "res": [
       {
         "value": 3,
@@ -904,11 +961,13 @@
   },
   {
     "req": "245 23 yen",
+    "inverse": false,
     "res": [],
     "comment": "This is not grouping, it is something that should not resemble a real value at all."
   },
   {
     "req": "Workers on Ceres are exposed to 20 J/m^2 per year",
+    "inverse": false,
     "res": [
       {
         "value": 20,
@@ -934,6 +993,7 @@
   },
   {
     "req": "I want 1cds in this room!",
+    "inverse": false,
     "res": [
       {
         "value": 1,
@@ -955,6 +1015,7 @@
   },
   {
     "req": "Intel Core i7 860 Processor 2.80 GHz 8 MB LGA1156 CPU I7-860BOX",
+    "inverse": false,
     "res": [
       {
         "value": 860.0,
@@ -989,6 +1050,7 @@
   },
   {
     "req": "The average radiation dose from  a selective CT scan of the abdomen and the pelvis is 14 mGy",
+    "inverse": false,
     "res": [
       {
         "value": 14.0,
@@ -1011,6 +1073,7 @@
   },
   {
     "req": "Fermilab's Tevatron took about 4 years to reach 1 fb\u22121 in 2005, while two of CERN's LHC experiments, ATLAS and CMS, reached over 5 fb\u22121 of proton-proton data in 2011 alone.",
+    "inverse": false,
     "res": [
       {
         "value": 4.0,
@@ -1064,6 +1127,7 @@
   },
   {
     "req": "Look there! This is a 5 metre shark!",
+    "inverse": false,
     "res": [
       {
         "value": 5.0,
@@ -1077,6 +1141,7 @@
   },
   {
     "req": "A mouse can get through a 1/4 inch gap",
+    "inverse": false,
     "res": [
       {
         "value": 0.25,
@@ -1090,6 +1155,7 @@
   },
   {
     "req": "It starts in early April and peaks in May, with average temperatures near 32 degrees Celsius although occasional heat waves can result in highs close to 45 degrees Celsius (114 degrees Fahrenheit) on some days and therefore higher apparent temperature.",
+    "inverse": false,
     "res": [
       {
         "value": 32.0,
@@ -1119,6 +1185,7 @@
   },
   {
     "req": "At top speed of 200 kilometres per hour the engine temperature rises to about 800 degrees Celsius.",
+    "inverse": false,
     "res": [
       {
         "value": 200.0,
@@ -1149,6 +1216,7 @@
   },
   {
     "req": "In the quantum-mechanical description, matter (solid) at absolute zero is in its ground state, the point of lowest internal energy.",
+    "inverse": false,
     "res": [
       {
         "value": 0,
@@ -1161,6 +1229,7 @@
   },
   {
     "req": "Zero is a small number.",
+    "inverse": false,
     "res": [
       {
         "value": 0,
@@ -1173,6 +1242,7 @@
   },
   {
     "req": "The length of my pencil is 2 in.",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -1185,6 +1255,7 @@
   },
   {
     "req": "The length of my pencil is 2 in",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -1197,6 +1268,7 @@
   },
   {
     "req": "There are two in my car",
+    "inverse": false,
     "res": [
       {
         "value": 2,
@@ -1209,10 +1281,12 @@
   },
   {
     "req": "At 2 pm everybody will be gone.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "This nano grid has a size of 2.1 pm.",
+    "inverse": false,
     "res": [
       {
         "value": 2.1,
@@ -1225,6 +1299,7 @@
   },
   {
     "req": "This nano grid has a size of 2.123 pm.",
+    "inverse": false,
     "res": [
       {
         "value": 2.123,
@@ -1237,6 +1312,7 @@
   },
   {
     "req": "This nano grid has a size of 2.123 am.",
+    "inverse": false,
     "res": [
       {
         "value": 2.123,
@@ -1249,10 +1325,12 @@
   },
   {
     "req": "I arrived at 2.13 am.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "Lets take the large 100 cl bottle instead.",
+    "inverse": false,
     "res": [
       {
         "value": 100,
@@ -1265,10 +1343,12 @@
   },
   {
     "req": "The bank robbery begun at 2pm and was over until 2.17pm.",
+    "inverse": false,
     "res": []
   },
   {
     "req": "The annual revenue is ($99.99).",
+    "inverse": false,
     "res": [
       {
         "value": -99.99,
@@ -1281,6 +1361,7 @@
   },
   {
     "req": "The annual revenue is -15€ ($-99.99).",
+    "inverse": false,
     "res": [
       {
         "value": -15,
@@ -1300,6 +1381,7 @@
   },
   {
     "req": "The average weight is 10kg (25lbs).",
+    "inverse": false,
     "res": [
       {
         "value": 10,
@@ -1319,6 +1401,7 @@
   },
   {
     "req": "There is a ⅓ cup of sauce and ½ tbsp of salt in this recipe.",
+    "inverse": false,
     "res": [
       {
         "value": 0.3333333333333333,
@@ -1344,6 +1427,39 @@
             "power": 3
           }
         ],
+        "uncertainty": null
+      }
+    ]
+  },
+  {
+    "req": "The medication was administered on day 5.",
+    "inverse": true,
+    "res": [
+      {
+        "value": 5,
+        "unit": "day",
+        "surface": "day 5",
+        "entity": "time",
+        "uncertainty": null
+      }
+    ]
+  },
+  {
+    "req": "The medication was administered on day 5 6 months after the initial onset.",
+    "inverse": true,
+    "res": [
+      {
+        "value": 5,
+        "unit": "day",
+        "surface": "day 5",
+        "entity": "time",
+        "uncertainty": null
+      },
+      {
+        "value": 6,
+        "unit": "month",
+        "surface": "6 months",
+        "entity": "time",
         "uncertainty": null
       }
     ]

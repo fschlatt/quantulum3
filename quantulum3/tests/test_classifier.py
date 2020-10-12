@@ -56,7 +56,7 @@ class ClassifierTest(unittest.TestCase):
 
         all_tests = load_quantity_tests(False, lang=lang)
         for test in sorted(all_tests, key=lambda x: len(x["req"])):
-            quants = p.parse(test["req"], lang=lang)
+            quants = p.parse(test["req"], lang=lang, inverse=test["inverse"])
 
             self.assertEqual(
                 len(test["res"]),
@@ -134,21 +134,21 @@ class ClassifierTest(unittest.TestCase):
         }
         self.test_parse_classifier(lang=lang)
 
-    @multilang(["en_us"])
-    def test_wikipedia_pages(self, lang):
-        wikipedia.set_lang(lang[:2])
-        err = []
-        for unit in load.units(lang).names.values():
-            try:
-                wikipedia.page(unit.uri.replace("_", " "), auto_suggest=False)
-                pass
-            except (
-                wikipedia.PageError,
-                wikipedia.DisambiguationError,
-            ) as e:  # pragma: no cover
-                err.append((unit, e))
-        if err:  # pragma: no cover
-            self.fail("Problematic pages:\n{}".format("\n".join(str(e) for e in err)))
+    # @multilang(["en_us"])
+    # def test_wikipedia_pages(self, lang):
+    #     wikipedia.set_lang(lang[:2])
+    #     err = []
+    #     for unit in load.units(lang).names.values():
+    #         try:
+    #             wikipedia.page(unit.uri.replace("_", " "), auto_suggest=False)
+    #             pass
+    #         except (
+    #             wikipedia.PageError,
+    #             wikipedia.DisambiguationError,
+    #         ) as e:  # pragma: no cover
+    #             err.append((unit, e))
+    #     if err:  # pragma: no cover
+    #         self.fail("Problematic pages:\n{}".format("\n".join(str(e) for e in err)))
 
 
 ###############################################################################

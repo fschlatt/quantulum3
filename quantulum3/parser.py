@@ -65,7 +65,9 @@ def get_values(item, lang="en_US"):
 
     fracs = r"|".join(reg.unicode_fractions())
 
-    value = item.group("value")
+    value = item.group("prevalue")
+    if value is None:
+        value = item.group("postvalue")
     # Remove grouping operators
     value = re.sub(
         r"(?<=\d)[%s](?=\d{3})" % reg.grouping_operators_regex(lang), "", value
@@ -266,12 +268,29 @@ def get_unit(item, text, lang="en_US"):
     Extract unit from regex hit.
     """
 
-    group_units = ["prefix", "unit1", "unit2", "unit3", "unit4"]
+    group_units = [
+        "preprefix",
+        "postprefix",
+        "unit1",
+        "unit2",
+        "unit3",
+        "unit4",
+    ]
     group_operators = ["operator1", "operator2", "operator3", "operator4"]
     # How much of the end is removed because of an "incorrect" regex match
     unit_shortening = 0
 
-    item_units = [item.group(i) for i in group_units if item.group(i)]
+    item_units = []
+    for group_unit in group_units:
+        unit = item.group(group_unit)
+        if unit:
+            item_units.append(unit)
+    inverse = False
+    if item.group("postvalue"):
+        inverse = True
+        del group_units[0]
+    else:
+        del group_units[1]
 
     if len(item_units) == 0:
         unit = load.units(lang).names["dimensionless"]
@@ -286,10 +305,13 @@ def get_unit(item, text, lang="en_US"):
             # disallow spaces as operators in units expressed in their symbols
             # Enforce consistency among multiplication and division operators
             # Single exceptions are colloquial number abbreviations (5k miles)
-            if operator in reg.multiplication_operators(lang) or (
-                operator is None
-                and unit
-                and not (index == 1 and unit in reg.suffixes(lang))
+            if not inverse and (
+                operator in reg.multiplication_operators(lang)
+                or (
+                    operator is None
+                    and unit
+                    and not (index == 1 and unit in reg.suffixes(lang))
+                )
             ):
                 if multiplication_operator != operator and not (
                     index == 1 and str(operator).isspace()
@@ -412,7 +434,7 @@ def clean_text(text, lang="en_US"):
 
 
 ###############################################################################
-def parse(text, lang="en_US", verbose=False):
+def parse(text, lang="en_US", verbose=False, inverse=False):
     """
     Extract all quantities from unstructured text.
     """
@@ -433,7 +455,7 @@ def parse(text, lang="en_US", verbose=False):
     text, shifts = substitute_values(text, values)
 
     quantities = []
-    for item in reg.units_regex(lang).finditer(text):
+    for item in reg.units_regex(lang, inverse=inverse).finditer(text):
 
         groups = dict([i for i in item.groupdict().items() if i[1] and i[1].strip()])
         _LOGGER.debug(u"Quantity found: %s", groups)

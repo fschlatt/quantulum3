@@ -30,7 +30,7 @@ class ParsingTest(unittest.TestCase):
         # Disable classifier usage
         clf.USE_CLF = False
         for test in sorted(all_tests, key=lambda x: len(x["req"])):
-            quants = p.parse(test["req"], lang=lang)
+            quants = p.parse(test["req"], lang=lang, inverse=test["inverse"])
 
             self.assertEqual(
                 len(test["res"]),
