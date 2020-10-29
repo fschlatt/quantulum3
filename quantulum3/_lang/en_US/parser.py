@@ -80,7 +80,10 @@ def extract_spellout_values(text):
                     ),
                 )
             except ValueError:
-                scale, increment = reg.numberwords(lang)[word.lower()]
+                try:
+                    scale, increment = reg.numberwords(lang)[word.lower()]
+                except KeyError:
+                    continue
             curr = curr * scale + increment
             if scale > 100:
                 result += curr
