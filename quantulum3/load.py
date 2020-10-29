@@ -91,6 +91,7 @@ METRIC_PREFIXES = {
     "c": "centi",
     "m": "milli",
     "µ": "micro",
+    "μ": "micro",
     "n": "nano",
     "p": "pico",
     "f": "femto",
