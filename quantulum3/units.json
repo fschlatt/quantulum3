@@ -574,7 +574,8 @@
     "dimensions": [],
     "symbols": [
       "µg",
-      "mcg"
+      "mcg",
+      "μg"
     ]
   },
   {
@@ -3523,6 +3524,9 @@
     "dimensions": [],
     "symbols": [
       "mol"
+    ],
+    "prefixes": [
+      "μ"
     ]
   },
   {
@@ -4548,8 +4552,7 @@
         "power": 3
       }
     ],
-    "symbols": [
-    ]
+    "symbols": []
   },
   {
     "name": "long hundred",
